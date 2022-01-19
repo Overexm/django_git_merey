@@ -61,6 +61,8 @@ from django.contrib.auth import login ```
 <img width="1440" alt="Снимок экрана 2022-01-18 в 18 02 33" src="https://user-images.githubusercontent.com/80208323/150103786-60ab2624-304c-4f58-8cc2-513feb005d8d.png">
 
 ```
+<img width="1440" alt="Снимок экрана 2022-01-18 в 18 02 52" src="https://user-images.githubusercontent.com/80208323/150104586-aaa74221-de39-4fd5-ae2f-405c47d2f9a1.png">
+
 [Back To The Top](#django_git_merey)
 
 ## License
