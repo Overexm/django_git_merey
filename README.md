@@ -27,6 +27,8 @@ Group:SE-2010
 
 * ### PostgreSQL Database [Download](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
+* ### To tun the server
+```python $ python3 manage.py runserver```
 
 
 [Back To The Top](#django_git_merey)
