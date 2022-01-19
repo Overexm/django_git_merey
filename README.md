@@ -34,23 +34,27 @@ Group:SE-2010
 ## Usage
 
 ```python
-from flask import Flask, render_template, redirect 
-from flask import request
-from flask.json import jsonify
-import jwt
-from flask_sqlalchemy import SQLAlchemy
-import psycopg2
-from bs4 import BeautifulSoup
+from django.shortcuts import render,redirect
+from django.views.generic.list import ListView
+from django.views.generic.edit import CreateView, UpdateView, DeleteView, FormView
+from django.urls import reverse_lazy
+from .models import ToDo
+from django.contrib.auth.views import LoginView, LogoutView
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth import login ``` 
 
 
 ## Examples
 ```html
-Datas:
-login:Merey password:123asd
+1.User must register;
+<img width="1440" alt="Снимок экрана 2022-01-18 в 18 02 52" src="https://user-images.githubusercontent.com/80208323/150103673-c75d9145-384e-42a4-bbba-6222a5950f7c.png">
 
-Coin news:
-Bitcoin: all data about bitcoin with summary
-Ethereum: all data about ethereum with summary
+
+2.User must create new task:
+<img width="1440" alt="Снимок экрана 2022-01-18 в 18 02 11" src="https://user-images.githubusercontent.com/80208323/150103763-d6501aa8-14f1-47e4-baf4-004ab5d0e249.png">
+<img width="1440" alt="Снимок экрана 2022-01-18 в 18 02 33" src="https://user-images.githubusercontent.com/80208323/150103786-60ab2624-304c-4f58-8cc2-513feb005d8d.png">
+
 ```
 [Back To The Top](#django_git_merey)
 
